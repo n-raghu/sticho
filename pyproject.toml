@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oms-be"
+version = "1.0.1"
+description = "OMS MicroService"
+requires-python = ">=3.12"
+
+[tool.poetry]
+name = "oms-be"
+version = "1.0.1"
+description = "OMS MicroService"
+packages = [{include = "service"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115"
+uvicorn = "^0.34"
+strawberry-graphql = "^0.268"
+stytch = "^13.5"
+pydantic = "^2.11"
+httpx = "^0.28"
+supabase = "^2.15"
