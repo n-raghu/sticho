@@ -12,7 +12,7 @@ A sample Strawberry GraphQL microservice with Stytch OAuth authentication.
 1. Install dependencies:
 
 ```bash
-pip install -e .
+poetry install
 ```
 
 ## Running the Service
